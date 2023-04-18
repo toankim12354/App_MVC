@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html>
-<?php
-
-?>
 <body>
 <h2>Link</h2>
 <div style="text-align: center;">
-<form method="get" action="controller/indexController">
+<form method="get" action="controller/CheckUrlController">
     <label for="url" style="font-style: oblique">Link web </label><br><br>
     <input type="text" id="url" name="url" value="" style="font-size: math"><br>
     <button type="submit">check</button>
